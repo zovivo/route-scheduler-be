@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="vrp-preprocess:war">
+    <output-path>$PROJECT_DIR$/vrp-preprocess/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>vrp-preprocess</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="vrp-preprocess-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="vrp-preprocess:war exploded" />
+    </root>
+  </artifact>
+</component>
